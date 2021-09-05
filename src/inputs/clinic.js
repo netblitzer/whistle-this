@@ -6,6 +6,14 @@ const clinics = [
             "Planned Parenthood",
         ],
         location: [
+            "140 FM1382 Ste 160",
+            "140 FM1382 Ste 160 Ste 160",
+            "140 FM1382",
+            "140 FM1382 Ste 160, Cedar Hill",
+            "140 FM1382 Suite 160, Cedar Hill",
+            "140 FM1382 Ste 160 Ste 160, Cedar Hill",
+        ],
+        city: [
             "Dallas",
             "DFW",
             "Dallas Fort Worth",
@@ -13,18 +21,16 @@ const clinics = [
             "Ft Worth",
             "Ft. Worth",
             "Cedar Hill",
-            "140 FM1382 Ste 160",
-            "140 FM1382 Ste 160 Ste 160",
-            "140 FM1382",
-            "140 FM1382 Ste 160, Cedar Hill",
-            "140 FM1382 Suite 160, Cedar Hill",
-            "140 FM1382 Ste 160 Ste 160, Cedar Hill",
-            "75104",
+        ],
+        county: [
+            "Tarrant",
+            "Dallas",
         ],
         state: [
             "Texas",
             "TX",
         ],
+        zip: 75104,
     },
     {
         name: [
@@ -34,22 +40,28 @@ const clinics = [
             "Southeast Planned Parenthood",
         ],
         location: [
+            "3863 Miller Ave",
+            "3863 Miller Avenue",
+            "3863 Miller Ave, Fort Worth",
+            "3863 Miller Avenue, Fort Worth",
+        ],
+        city: [
             "Dallas",
             "DFW",
             "Dallas Fort Worth",
             "Fort Worth",
             "Ft Worth",
             "Ft. Worth",
-            "3863 Miller Ave",
-            "3863 Miller Avenue",
-            "3863 Miller Ave, Fort Worth",
-            "3863 Miller Avenue, Fort Worth",
-            "76119",
+        ],
+        county: [
+            "Tarrant",
+            "Dallas",
         ],
         state: [
             "Texas",
             "TX",
         ],
+        zip: 76119,
     },
     {
         name: [
@@ -59,6 +71,12 @@ const clinics = [
             "Plano Health Center Planned Parenthood",
         ],
         location: [
+            "600 N Central Expy Ste 601",
+            "600 North Central Expy",
+            "600 N Central Expressway",
+            "600 North Central Expressway",
+        ],
+        city: [
             "Dallas",
             "DFW",
             "Dallas Fort Worth",
@@ -66,16 +84,18 @@ const clinics = [
             "Ft Worth",
             "Ft. Worth",
             "Plano",
-            "600 N Central Expy Ste 601",
-            "600 North Central Expy",
-            "600 N Central Expressway",
-            "600 North Central Expressway",
-            "75074",
+        ],
+        county: [
+            "Tarrant",
+            "Dallas",
+            "Collin",
+            "Denton",
         ],
         state: [
             "Texas",
             "TX",
         ],
+        zip: 75074,
     },
     {
         name: [
@@ -85,12 +105,6 @@ const clinics = [
             "North Planned Parenthood",
         ],
         location: [
-            "Dallas",
-            "DFW",
-            "Dallas Fort Worth",
-            "Fort Worth",
-            "Ft Worth",
-            "Ft. Worth",
             "9100 N. Central Expwy, #169 #169, Dallas",
             "9100 N. Central Expwy, #169",
             "9100 N. Central Expwy, #169, Dallas",
@@ -99,10 +113,23 @@ const clinics = [
             "9100 North Central Expressway",
             "9100 North Central Expressway, Dallas",
         ],
+        city: [
+            "Dallas",
+            "DFW",
+            "Dallas Fort Worth",
+            "Fort Worth",
+            "Ft Worth",
+            "Ft. Worth",
+        ],
+        county: [
+            "Tarrant",
+            "Dallas",
+        ],
         state: [
             "Texas",
             "TX",
         ],
+        zip: 75231
     },
     {
         name: [
@@ -112,13 +139,6 @@ const clinics = [
             "Bedford Health Center Planned Parenthood",
         ],
         location: [
-            "Dallas",
-            "DFW",
-            "Dallas Fort Worth",
-            "Fort Worth",
-            "Ft Worth",
-            "Ft. Worth",
-            "Bedford",
             "2824 Central Dr Suite 332, Bedford",
             "2824 Central Dr Suite 332",
             "2824 Central Dr Ste 332, Bedford",
@@ -127,12 +147,25 @@ const clinics = [
             "2824 Central Drive Suite 332, Bedford",
             "2824 Central Dr",
             "2824 Central Drive",
-            "76021",
+        ],
+        city: [
+            "Dallas",
+            "DFW",
+            "Dallas Fort Worth",
+            "Fort Worth",
+            "Ft Worth",
+            "Ft. Worth",
+            "Bedford",
+        ],
+        county: [
+            "Tarrant",
+            "Dallas",
         ],
         state: [
             "Texas",
             "TX",
         ],
+        zip: 76021,
     },
 ]
 
